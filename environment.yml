@@ -1,0 +1,21 @@
+name: walk-park
+channels:
+  - conda-forge
+  - udst
+  - defaults
+dependencies:
+  - pandas>=1.1.0
+  - geopandas=0.9.0
+  - pandana=0.6.1
+  - networkx>=2.2
+  - osmnx>1.0.0
+  - matplotlib>=3.0
+  - ipython
+  - ipykernel
+  - folium
+  - numpy
+  - shapely
+  - fiona
+  - descartes
+  - requests
+  - seaborn
