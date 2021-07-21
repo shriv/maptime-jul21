@@ -12,3 +12,4 @@ dependencies:
 - ipykernel=6.0.*
 - matplotlib=3.4.*
 - conda-minify=0.1.*
+- nbconvert=6.1.*
