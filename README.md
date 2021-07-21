@@ -6,15 +6,10 @@ This repo has all the materials to run the walkability analysis presented at Map
 git clone https://github.com/shriv/maptime-jul21.git
 ```
 - Go to the repository directory 
-- Get the image locally by either: 
-    - **Building the container**. To build the container on a unix / linux terminal the command is as below. Note, it can take a while ~10-15 minutes. 
-    ```
-    docker build -t maptime-jul21 .
-    ```
-    - **Getting the image from Docker hub**. 
-    ```
-    docker pull shriv/maptime-jul21
-    ```
+- Get the image locally building the container. To build the container on a unix / linux terminal the command is as below. Note, it can take a while ~10-15 minutes. 
+```
+docker build -t maptime-jul21 .
+```
 - Run the container 
 ```
 docker run -d -p 8888:8888 -v ${PWD}:/home/jovyan/work \
