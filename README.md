@@ -16,7 +16,7 @@ docker run -d -p 8888:8888 -v ${PWD}:/home/jovyan/work \
 -e JUPYTER_ENABLE_LAB=yes \ 
 -e CHOWN_HOME=yes \
 -e CHOWN_HOME_OPTS='-R' 
-shriv/maptime-jul21 \ 
+maptime-jul21 \ 
 start.sh jupyter lab --LabApp.token=\'\'
 ```
 - Go to the IDE served on localhost:8888
